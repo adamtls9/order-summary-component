@@ -8,6 +8,8 @@
     padding: 0;
 }
 
+
+
 .container {
     max-width: 90%;
     margin: 20px auto;
@@ -23,13 +25,15 @@ h1 {
     font-family: 'Red Hat Display', sans-serif;
     text-align: center;
     margin-top: 10px;
-    padding: 20px;
+    padding: 10px;
 }
 
 p {
     font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    font-weight: 400;
 }
 .plan {
     display: flex;
@@ -41,7 +45,7 @@ p {
     background-color: hsl(225, 100%, 98%);
     font-family: 'Red Hat Display', sans-serif;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .plan img {
@@ -51,5 +55,42 @@ p {
 }
 
 .plan span {
+    font-weight: 900;
+    color: black;
+}
+
+.first {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    border: 0px;
+    border-radius: 15px;    
+    width:100%;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 0 1em hsl(224, 23%, 55%);
+}
+
+.first p {
+    color:hsl(225, 100%, 98%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.second {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    width: auto;
+    border: 0px;
+    background-color: white;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.second p {
+    font-family: 'Red Hat Display', sans-serif;
+     color: hsl(224, 23%, 55%);
     font-weight: 900;
 }
